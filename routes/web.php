@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PublicController::class, 'home'])->name('welcome');
 Route::get('/theMonsignors', [PublicController::class, 'monsignor'])->name('themonsignors');
+Route::get('/theestate', [PublicController::class, 'estate'])->name('theestate');
+Route::get('/themanor', [PublicController::class, 'manor'])->name('themanor');
+Route::get('/thevilla', [PublicController::class, 'villa'])->name('thevilla');
+Route::get('/whoweare', [PublicController::class, 'whoweare'])->name('whoweare');
+Route::get('/sustainability', [PublicController::class, 'sustainability'])->name('sustainability');
+Route::get('/mola', [PublicController::class, 'mola'])->name('mola');
+Route::get('/contact_us', [PublicController::class, 'contact'])->name('contact_us');
+Route::get('/blog', [PublicController::class, 'blog'])->name('blog');
